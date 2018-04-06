@@ -1,4 +1,7 @@
-spring.application.name: demo-dev
+spring:
+  application.name: demo
+  profiles.active: dev
+
 spring.cloud.vault:
   host: localhost
   port: 8200
