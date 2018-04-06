@@ -1,1 +1,7 @@
 spring.application.name: demo-dev
+spring.cloud.vault:
+  host: localhost
+  port: 8200
+  scheme: http
+  authentication: TOKEN
+  token: f170ff27-5f7c-6a25-f95c-8c305989006c
