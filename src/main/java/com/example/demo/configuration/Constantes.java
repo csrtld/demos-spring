@@ -1,4 +1,5 @@
 package com.example.demo.configuration;
 
-public class Constantes {
+public abstract class Constantes {
+    public static final String SALUDO = "Hola: ";
 }

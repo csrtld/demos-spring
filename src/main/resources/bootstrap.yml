@@ -1,3 +1,13 @@
 spring:
-  application.name: demo
+  application.name: demo-vault
   profiles.active: dev
+
+spring.cloud.vault:
+  host: 127.0.0.1
+  port: 8200
+  scheme: http
+  authentication: TOKEN
+  # Cambiar esto por valor de 'Root Token'
+  token: 646d76b2-95f9-565b-f8da-04508a51893b
+  # Cambiando secreto de vault por 'secret/custom/dev'
+  application-name: custom
