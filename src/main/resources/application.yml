@@ -1,1 +1,4 @@
-server.port=8080
+# Desabilitar seguridad para todos los endpoints de actuator
+# management.security.enabled: false, o para
+# Desabilitar seguridad solo para endpoint /refresh
+endpoints.refresh.sensitive: false
