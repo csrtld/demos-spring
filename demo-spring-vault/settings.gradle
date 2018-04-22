@@ -1,2 +1,1 @@
-
-include "demo-spring-vault"
+rootProject.name = 'demo-spring-vault'

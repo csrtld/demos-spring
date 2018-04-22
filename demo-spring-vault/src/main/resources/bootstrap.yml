@@ -1,5 +1,5 @@
 spring:
-  application.name: demo-vault
+  application.name: demo-spring-vault
   profiles.active: dev
 
 spring.cloud.vault:

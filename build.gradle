@@ -2,11 +2,7 @@ subprojects {
     apply plugin: 'java'
 
     group = 'com.example'
-    version = '0.0.1'
     sourceCompatibility = 1.8
-
-    ext.springBootVersion = '1.5.10.RELEASE'
-    ext.springCloudVersion = 'Dalston.SR5'
 
     repositories {
         mavenCentral()
