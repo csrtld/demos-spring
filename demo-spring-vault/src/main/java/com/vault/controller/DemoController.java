@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.eureka.controller;
 
-import com.example.demo.configuration.Constantes;
+import com.eureka.configuration.Constantes;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

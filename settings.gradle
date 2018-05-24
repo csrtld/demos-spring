@@ -1,3 +1,6 @@
 rootProject.name = 'demos-spring'
 
 include 'demo-spring-vault'
+include 'demo-spring-eureka'
+include 'demo-spring-client'
+include 'demo-spring-feign'
