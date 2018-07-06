@@ -1,6 +1,6 @@
-package com.eureka.controller;
+package com.vault.controller;
 
-import com.eureka.configuration.Constantes;
+import com.vault.configuration.Constantes;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RefreshScope
-public class DemoController {
+public class VaultController {
 
     @Value("${nombre}")
     String quien;

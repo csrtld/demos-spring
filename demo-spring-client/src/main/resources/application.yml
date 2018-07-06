@@ -4,3 +4,5 @@ server:
 eureka:
   instance:
     preferIpAddress: true
+
+debug: true

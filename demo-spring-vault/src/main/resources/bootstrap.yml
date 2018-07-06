@@ -1,5 +1,5 @@
 spring:
-  application.name: demo-spring-vault
+  application.name: demo-spring-vault-re-v1-0-0
   profiles.active: dev
 
 spring.cloud.vault:
@@ -8,6 +8,6 @@ spring.cloud.vault:
   scheme: http
   authentication: TOKEN
   # Cambiar esto por valor de 'Root Token'
-  token: 646d76b2-95f9-565b-f8da-04508a51893b
-  # Cambiando secreto de vault por 'secret/custom/dev'
-  application-name: custom
+  token: 13f0e7fd-049d-4100-0b0b-7d5ec040905e
+  # Cambiando secreto de vault por 'secret/demo-spring-vault/dev'
+  application-name: demo-spring-vault
