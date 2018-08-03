@@ -1,0 +1,3 @@
+spring:
+  application.name: spring-contract-producer
+  profiles.active: dev

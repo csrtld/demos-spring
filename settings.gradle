@@ -1,8 +1,11 @@
 rootProject.name = 'demos-spring'
 
+//include 'demo-spring-ig'
 include 'demo-spring-generic'
 include 'demo-spring-async'
 include 'demo-spring-vault'
 include 'demo-spring-eureka'
 include 'demo-spring-client'
 include 'demo-spring-feign'
+include 'demo-spring-contract-producer'
+include 'demo-spring-contract-consumer'
